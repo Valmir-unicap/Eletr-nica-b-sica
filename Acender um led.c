@@ -1,8 +1,7 @@
 void setup(){
-  pinMode(11,OUTPUT){
+  pinMode(11,OUTPUT){//defini a porta do led como saída
   }
   void lopp(){
-    //Acender o led
-    digitalWrite(11,High);
-    delay(1000);
+    digitalWrite(11,High);//Acender o led
+    delay(1000);//Intervalo de tempo em milissegundo
   }
